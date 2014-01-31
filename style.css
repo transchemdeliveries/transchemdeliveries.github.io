@@ -1,0 +1,150 @@
+/* CSS Document */
+
+body {margin:0px; padding:0px; font-family:calibri,arial;  background: url(gifs/bg.jpg); background-attachment: fixed; background-color:#055D7D;}
+
+.tab{ width:90%;}
+
+.txt-ind {color:#000000; font-size:16px; line-height:22px; padding:0px 10px 10px 20px; text-align:justify; }
+.txt-ind strong{color:#156A88; font-size:21px; text-transform:uppercase;}
+.txt-ind strong.s{color:#000000; font-size:16px; text-transform: none;}
+
+.txt-ind2 {color:#000000; font-size:16px; line-height:22px; padding:0px 10px 10px 20px; text-align:justify; }
+.txt-ind2 strong{color:#156A88; font-size:21px; }
+.txt-ind2 strong.s{color:#000000; font-size:16px; text-transform: none;}
+
+.box {background-color:#7A7A7A; margin:0px 20px 10px 20px; font-size:14px; color:#ffffff; padding:10px; line-height:18px;}
+.box strong{ font-size:17px; color:#9CFF1A; font-weight:normal;}
+
+h2 {color:#E49A18; font-size:19px; margin:5px; border-bottom:1px dashed #E49A18; text-transform:uppercase;}
+
+.news {color:#ffffff; font-size:15px; line-height:19px; margin:5px; height:194px;}
+.news strong{color:#ffffff; font-size:17px;}
+.news a{color:#ffffff; text-decoration:underline;}
+.news a:hover{color:#ffffff; text-decoration:underline;}
+
+.bb { background-image:url(gifs/tab.gif); margin:20px; padding:7px;}
+.bb strong{color:#156A88; font-size:22px; text-transform:uppercase; background-color:#FFFFFF; padding:9px 5px 0px 9px;}
+
+.bbtxt{color:#000000; font-size:18px; line-height:25px; background-color:#FFFFFF; padding:0px 15px 15px 15px; text-align:justify;}
+.bbtxt a{color:#055D7D; text-decoration: underline; font-weight:bold;}
+.bbtxt a:hover{color: #0000FF; text-decoration: none;}
+
+
+.bbtxt1 {color:#000000; font-size:16px; line-height:22px; background-color:#FFFFFF; padding:0px 15px 15px 15px; text-align:justify;}
+
+
+.bbtxt2 {color:#000000; font-size:17px; line-height:22px; background-color:#FFFFFF; padding:0px 15px 15px 15px;}
+.bbtxt2 ul { margin:0px;}
+.bbtxt2 a{color:#000000; text-decoration:none; -webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;}
+.bbtxt2 a:hover{color:#0181B6; text-decoration:none; text-shadow: 0px 0px 1px rgba(255,255,255,0.9), 1px 2px 5px rgba(0,0,0,0.5); font-weight:bold;}
+
+.bbtxt3 {color:#ffffff; font-size:25px; line-height:25px; background-color:#005270; padding:0px 15px 15px 15px; font-weight:bold;}
+.bbtxt3 a{color:#055D7D; text-decoration: underline; font-weight:bold;}
+.bbtxt3 a:hover{color: #0000FF; text-decoration: none;}
+
+
+.footer {color:#9BBCC8; font-size:13px; text-align:center; padding:8px; letter-spacing:1px;}
+.footer a{color:#9BBCC8; text-decoration:none; padding-left:35px; padding-right:35px;}
+.footer a:hover{color:#ffffff; text-decoration:none;}
+
+.copy {color:#699BAD; font-size:13px; text-align:center; padding:5px;}
+.copy a{color:#699BAD; text-decoration:none;}
+.copy a:hover{color:#ffffff; text-decoration:none;}
+
+.add {color:#ffffff; font-size:16px;  padding-top:60px; padding-left:15px; line-height:15px;}
+.add strong{color:#ffffff; font-size:21px;}
+.add strong.s{color:#91FF01; font-size:16px;  font-weight:normal;}
+
+h1 {color:#005270; font-size:30px; text-transform:uppercase; margin:10px 10px 10px 20px; padding:0px; border-bottom:1px dashed #005270;}
+
+.txt{color:#3D3D3D; font-size:18px; line-height:23px; text-align:justify; letter-spacing:.5px; margin:10px 10px 10px 20px;}
+.txt img { padding-left:20px;}
+.txt strong{color:#055876; font-size:21px;}
+.txt strong.s {color:#3D3D3D; font-size:18px;}
+.txt a{color:#B29F53; text-decoration:none;}
+.txt a:hover{color:#ffffff; text-decoration:none;}
+
+.txt2 {color:#3D3D3D; font-size:22px; line-height:40px; text-align: center; font-weight:bold; letter-spacing:.5px; margin:10px 10px 10px 20px;}
+
+
+.products {color:#162A00; font-size:14px; text-align:center; font-weight:bold;}
+.products a{color:#162A00; text-decoration:none;}
+.products a:hover{color:#000000; text-decoration: underline;}
+
+.certificate { text-align:center; padding-bottom:40px;}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.carousel{position :relative ; margin :0 auto; width :950px; height:300px; border :none; overflow : visible ;}
+
+/* _______________________________________________ */
+
+/* SLIDES */
+/* _______________________________________________ */
+
+/* slide container */
+.carousel .slides{ margin :0; padding :0; border :none; list-style :none; position :relative ; overflow :visible ;}
+/* slide item */
+.carousel .slides .slideItem { position :absolute ; cursor :pointer ; overflow : hidden;padding :0;margin :0;border :none;}
+
+.carousel .slides .slideItem a{	display: block ;text-decoration :none;margin :0;padding :0;border :none;outline :none;}
+.carousel .slides .slideItem img{ margin :0;padding :0;border :none;width :100%;height :100%;}
+/* _______________________________________________ */
+
+/* DIRECTION BUTTON */
+/* _______________________________________________ */
+
+.carousel .nextButton{ position :absolute ;right :-22px; width :35px; margin-top:-200px; height:37px; background : url("gifs/next_button.png") no-repeat center;cursor :pointer ;z-index :9999;}
+.carousel .prevButton{position :absolute ;left :-25px;margin-top:-200px;width :35px;height: 37px;background : url("gifs/prev_button.png");cursor :pointer ;z-index :9999;}
+
+/* _______________________________________________ */
+
+/* NAVIGATION BUTTON */
+/* _______________________________________________ */
+
+/* buttons container */
+.carousel .buttonNav{position : relative ;margin :0 auto;z-index :999;}
+/* numbers */
+.carousel .buttonNav .numbers {	position :relative ;float :left ;margin :5px;color : #828282 ;cursor :pointer ;font-weight :bold ;text-decoration :none;font-size :1em;font-family :Arial, Verdana ;}
+.carousel .buttonNav .numbers:hover{color: #000;text-decoration :underline;}
+.carousel .buttonNav .numberActive{background : none;color :#000;cursor :default ;}
+/* bullets */
+.carousel .buttonNav .bullet{position :relative ;float :left ;width :16px;height :16px;background : url(images/Bullet-White.png) no-repeat center ;
+	margin :5px;float :left ;cursor :pointer ;}
+.carousel .buttonNav .bullet:hover{background : url(gifs/Bullet-Black.png) no-repeat center ;}
+.carousel .buttonNav .bulletActive{background : url(gifs/Bullet-Black.png) no-repeat center ;cursor :default ;}
+
+
+
+
+
+
+
+
+#nav, #nav ul{margin:0;padding:0;list-style-type:none;list-style-position:outside;position:relative;line-height:24px; z-index:1000; text-align:left;}
+#nav a{display:block;padding:0px 5px;border:1px solid #055674;color:#fff;text-decoration:none;background-color:#005270;}
+#nav a:hover{background-color:#fff;color:#055674;}
+#nav li{float:left;position:relative;}
+#nav ul {position:absolute;display:none;width:12em;top:1.5em;}
+#nav li ul a{width:12em;height:auto;float:left;}
+#nav ul ul{top:auto;}	
+#nav li ul ul {left:12em;margin:0px 0 0 10px;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{display:none;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{display:block;}
+
+
+
+
+
+
+
+.m_div{width:658px; margin:auto}
+.leftnav{width:140px; float:left;padding-top:15px; }
+.leftnav p{border:1px solid #D3D8DD;background:#F4F5F6 url(images/aro.gif) no-repeat 10px 9px;margin-bottom:4px;padding:2px 0 7px 23px;line-height:12px;font-size:15px;font-weight:bold;color:#454855;cursor:pointer;}
+.leftnav p.h{border:1px solid #D3D8DD;border-right:0px;position:relative;background:#F4F5F6 url(images/aro1.gif) no-repeat 223px 10px;margin-bottom:4px;padding:4px 0 6px 23px;line-height:12px;font-size:16px;width:135px;color:#055674; text-transform:uppercase;}
+.cnt{float:right; width:500px;padding-top:15px;}
+.cnt111{border:1px solid #D3D8DD;}
+.cntont{font-size:15px;color:#454855;line-height:19px;text-align: left;padding:10px 10px 15px 10px;background:#F4F5F6;height:830px;}
+.off{display:none}
+.on{display:block}
