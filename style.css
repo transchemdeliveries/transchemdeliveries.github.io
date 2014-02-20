@@ -38,9 +38,9 @@ h2 {color:#E49A18; font-size:19px; margin:5px; border-bottom:1px dashed #E49A18;
 .bbtxt2 a{color:#000000; text-decoration:none; -webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;-o-transition: all 0.3s ease;}
 .bbtxt2 a:hover{color:#0181B6; text-decoration:none; text-shadow: 0px 0px 1px rgba(255,255,255,0.9), 1px 2px 5px rgba(0,0,0,0.5); font-weight:bold;}
 
-.bbtxt3 {color:#ffffff; font-size:20px; line-height:25px; background-color:#005270; padding:0px 15px 15px 15px; font-weight:bold;}
-.bbtxt3 a{color:#055D7D; text-decoration: underline; font-weight:bold;}
-.bbtxt3 a:hover{color: #0000FF; text-decoration: none;}
+.bbtxt3 {color:#ffffff; font-size:20px; line-height:25px; background-color:#005270; padding:0px 15px 15px 15px; font-weight:bold; text-transform:uppercase;}
+.bbtxt3 a{color:#ffffff; text-decoration: none;}
+.bbtxt3 a:hover{color: #ffffff; text-decoration: underline;}
 
 
 .footer {color:#9BBCC8; font-size:13px; text-align:center; padding:8px; letter-spacing:1px;}
@@ -123,7 +123,7 @@ h1 {color:#005270; font-size:30px; text-transform:uppercase; margin:10px 10px 10
 
 
 #nav, #nav ul{margin:0;padding:0;list-style-type:none;list-style-position:outside;position:relative;line-height:24px; z-index:1000; text-align:left;}
-#nav a{display:block;padding:0px 5px;border:1px solid #055674;color:#fff;text-decoration:none;background-color:#005270;}
+#nav a{display:block;padding:0px 5px;border-bottom:1px solid #01374B;color:#fff;text-decoration:none;background-color:#005270;}
 #nav a:hover{background-color:#fff;color:#055674;}
 #nav li{float:left;position:relative;}
 #nav ul {position:absolute;display:none;width:12em;top:1.5em;}
